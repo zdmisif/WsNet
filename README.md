@@ -34,6 +34,7 @@ public interface WsApi {
 ```
 WsMethodName 对应声明对应的方法
 WsParam 对应方法的参数
+WsFileParam 上传图片的参数，传的是图片数据类型为byte[]
 类似Retrofit的用法
 
 ### 3.创建接口对应的一个实体类,调用对应的方法即可
